@@ -1,0 +1,6 @@
+python-telegram-bot==13.8.1
+environs==9.3.5
+vk-api==11.9.7
+fuzzy-match==0.0.1
+numpy==1.22.2
+redis==4.1.0
