@@ -1,0 +1,1 @@
+QUESTIONING, ANSWERING = range(2)

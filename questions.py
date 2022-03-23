@@ -1,3 +1,4 @@
+"""Подготовка вопросов викторины."""
 import os
 from os.path import join
 
@@ -66,9 +67,3 @@ def get_qanda(quiz_filename: str) -> dict:
         qanda[qanda_key] = complete_question
 
     return qanda
-
-
-if __name__ == '__main__':
-    import pprint
-    qanda = get_qanda('qanda/amo96.txt')
-    pprint.pprint(qanda)
